@@ -380,7 +380,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFirstApp/MyFirstApp-Prefix.pch";
 				INFOPLIST_FILE = "MyFirstApp/MyFirstApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,7 +393,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFirstApp/MyFirstApp-Prefix.pch";
 				INFOPLIST_FILE = "MyFirstApp/MyFirstApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -449,6 +453,7 @@
 				8BA4E4F9171F96F5008D7D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BA4E4FA171F96F5008D7D07 /* Build configuration list for PBXNativeTarget "MyFirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +462,7 @@
 				8BA4E4FC171F96F5008D7D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
